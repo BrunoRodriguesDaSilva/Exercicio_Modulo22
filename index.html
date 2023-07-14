@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Festa de Aniversário</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Seção Hero com contador decrescente -->
+  <section class="hero">
+    <div class="container">
+        <h1>Próximo <span>Aniversário</span></h1>
+        <div id="countdown"></div>
+    </div>
+  </section>
+
+  <!-- Seção Descrição do Local -->
+    <section class="location">
+        <div class="container">
+            <h1>Local da <span>Festa</span></h1>
+            <p>Insira seu endereço para encontrar o caminho até o local:</p>
+            <input type="text" id="userAddress" placeholder="Digite seu endereço">
+            <button onclick="openGoogleMaps()">Abrir Google Maps</button>
+        </div>       
+    </section>
+
+    <!-- Seção Atrações e Comida -->
+    <section class="attractions">
+        <div class="container">
+            <h1>Atrações e <span>Comida</span></h1>
+            <h3>Atrações</h3>
+            <ul>
+            <li>Música ao vivo</li>
+            <li>Pista de dança</li>
+            <li>fazer depois</li>
+            </ul>
+            <h3>Comidas</h3>
+            <ul>
+                <li class="comidas"><span>Saladas</span>: Salada de alface, salada de rúcula, salada de tomate, salada de batata, salada de macarrão, salada Caesar, salada de frutas etc. </li>
+                <li class="comidas"><span>Entradas e aperitivos</span>: Mini quiches, coxinhas, bolinhos de queijo, bruschettas, camarão empanado, espetinhos de frango, rolinhos primavera, patês diversos, canapés.</li>
+                <li class="comidas"><span>Pratos principais</span>: Filé de frango grelhado, filé de peixe assado, estrogonofe de carne, lasanha, massa com diferentes molhos, risoto, feijoada, carne assada, frango ao molho, parmegiana.</li>
+                <li class="comidas"><span>Guarnições</span>: Arroz branco, arroz à grega, purê de batata, batata assada, batata frita, legumes salteados, legumes cozidos, farofa, feijão.</li>
+                <li class="comidas"><span>Estações de comida</span>: Pizzas variadas, sushi, massas frescas preparadas na hora, hambúrgueres personalizados, churrasco.</li>
+                <li class="comidas"><span>Sobremesas</span>: Pudim, mousse de chocolate, torta de limão, brigadeiro, sorvetes diversos, frutas frescas, pavê, bolo de cenoura, torta de limão.               </li>
+                <li class="comidas"><span>Bebidas</span>: Refrigerantes, água, sucos naturais, coquetéis não alcoólicos, coquetéis alcoólicos, chás gelados.</li>
+            </ul>
+        </div>
+    </section>
+  <script src="main.js"></script>
+</body>
+</html>

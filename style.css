@@ -1,0 +1,162 @@
+/* Estilos gerais */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  h1 {
+    font-size: 50px;
+    color: #fff;
+  }
+
+  .container {
+    max-width: 1100px;
+    margin: auto;
+  }
+
+  ::-webkit-scrollbar {
+    width: 10px;
+    background-color: #000000e8;
+  }
+  ::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: tomato;
+  }
+  
+  /* Estilos da seção hero */
+  .hero {
+    background-image: url(https://images.pexels.com/photos/949587/pexels-photo-949587.jpeg);
+    background-size: cover;
+    padding-top: 100px;
+    text-align: center;
+    height: 400px;
+    position: relative;
+  }
+
+  .hero .container {
+    position: relative;
+  }
+
+  .hero:before {
+    content: "";
+    opacity: .7;
+    background-color: #000;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  span {
+    color: red;
+  }
+
+  #countdown {
+    font-size: 36px;
+    color: #ffffffb0;
+  }
+  
+  /* Estilos da seção de local */
+
+  .location {
+    background-image: url(https://images.pexels.com/photos/21014/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: cover;
+    padding: 30px;
+    height: 800px;
+    position: relative;
+  }
+
+  .location .container {
+    position: relative;
+  }
+
+  .location::before {
+    content: "";
+    opacity: .7;
+    background-color: #000;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+
+  
+  .location h1 {
+    padding-top: 170px;
+  }
+  
+  .location p {
+    font-size: 16px;
+    color: #ccc;
+  }
+  
+  .location input {
+    width: 60%;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 16px;
+    border-radius: 7px;
+    border: none;
+  }
+  
+  .location button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .location button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Estilos da seção de atrações e comida */
+  .attractions {
+    background-image: url(https://rondellobuffet.com.br/wp-content/uploads/2019/01/Banners_Topo_Site_1920x930_A2.png);
+    background-size: cover;
+    padding: 30px;
+    height: 800px;
+    position: relative;
+  }
+
+  .attractions .container {
+    position: relative;
+  }
+
+  .attractions::before {
+    content: "";
+    opacity: .9;
+    background-color: #000;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .attractions h3 {
+    font-size: 30px;
+    color: #fff;
+    margin-top: 45px;
+  }
+  
+  .attractions ul {
+    list-style-type: none;
+    margin-left: 30px;
+    margin: 30px 0;
+    color: #e2e2e2;
+  }
+  
+  .attractions .comidas {
+    font-size: 18px;
+    margin: 20px 0;
+  }
