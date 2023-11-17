@@ -17,7 +17,7 @@ function openGoogleMaps() {
     window.open(mapsURL);
 }
 
-var dataDoAniversario = new Date("july 18, 2023 19:00:00").getTime();
+var dataDoAniversario = new Date("july 18, 2024 19:00:00").getTime();
 
 setInterval(function() {
     var countdownElement = document.getElementById("countdown");
